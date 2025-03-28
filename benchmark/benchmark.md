@@ -20,7 +20,7 @@ question
 
 2. 执行测试
 ```bash
-python benchmark -u http://localhost:3100 -a 6 -c 141 -f data/renli.csv -p zds
+python benchmark.py -u http://localhost:3100 -a 6 -c 141 -f data/renli.csv -p zds
 ```
 参数说明：
 - -a: 问答对话的id
